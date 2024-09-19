@@ -1,0 +1,8 @@
+.nav-bar-div{
+    grid-template-columns: 5rem auto;
+    gap: 1rem;
+    align-items: center;
+}
+.nav-bar-div .img-logo{
+    width: 4rem;
+}

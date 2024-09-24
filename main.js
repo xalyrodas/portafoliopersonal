@@ -12,5 +12,5 @@ DOM.appendChild(navBar);
 
 let proyect = document.createElement('section');
 proyect.classList = "proyect";
-proyect.innerHTML ="Hola mundo";
+proyect.appendChild(proyectos);
 DOM.appendChild(proyect);b

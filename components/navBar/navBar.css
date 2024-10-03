@@ -1,10 +1,67 @@
-.nav-bar-div{
-    display: grid;
-    grid-template-columns: 5rem auto;
-    gap: 1rem;
+/* Estilos para el contenedor */
+.nav-bar-div {
+    display: flex; /* Cambiar de grid a flex */
+    flex-direction: column; /* Alinear elementos verticalmente */
+    gap: 1rem; /* Espaciado entre las tarjetas */
     height: 100vh;
     border: 1px solid black;
 }
-.nav-bar-div .img-logo{
+
+.nav-bar-div .img-logo {
     width: 4rem;
+}
+
+/* Estilos para las tarjetas */
+.card-div {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 0.5rem;
+    width: 100%; /* Hacer que las tarjetas ocupen el ancho completo */
+    height: 3rem;
+}
+
+.color-box {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.card-name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    white-space: nowrap; /* Evitar que el texto se parta en dos líneas */
+}
+/* Estilos para el formulario de contacto */
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 1rem;
+    margin-top: 1rem; /* Espacio entre tarjetas y formulario */
+}
+
+.input-field, .textarea-field {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.textarea-field {
+    resize: none; /* Deshabilitar redimensionamiento del textarea */
+    height: 100px; /* Altura fija para el textarea */
+}
+
+.submit-button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
 }

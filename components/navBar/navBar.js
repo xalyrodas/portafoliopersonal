@@ -9,4 +9,5 @@ navBarDiv.appendChild(imgLogo);
 let h2 = document.createElement('h2');
 h2.innerText = "alyson";
 navBarDiv.appendChild(h2);
-export{navBarDiv}
+
+export {navBarDiv};

@@ -1,6 +1,6 @@
 let dataProyectos = [
     {
-        nombre: "Formulario",
+        nombre: "Hospital",
         descripcion: "texto texto texto",
         webGIT: "https://",
         gitgub: "https://",
